@@ -50,8 +50,7 @@
     "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' -c .eslintrc --fix ",
     "build_local": "yarn build && yarn pack",
     "test": "jest",
-    "example": "yarn --cwd example",
-    "postinstall": "yarn build"
+    "example": "yarn --cwd example"
   },
   "peerDependencies": {
     "react": "*",
